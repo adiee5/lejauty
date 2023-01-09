@@ -1,0 +1,31 @@
+partial alphanumeric_keys
+xkb_symbols "legacy" {
+
+    include "latin"
+
+    name[Group1]="Polish (legacy)";
+
+    key <AD03>	{ [         e,          E,      eogonek,      Eogonek ]	};
+    key <AD07>  { [         u,          U,	EuroSign,     cent    ] };
+    key <AD09>	{ [         o,          O,       oacute,       Oacute ]	};
+
+    key <AC01>	{ [         a,          A,      aogonek,      Aogonek ]	};
+    key <AC02>	{ [         s,          S,       sacute,       Sacute ]	};
+
+    key <AB01>	{ [         z,          Z,    zabovedot,    Zabovedot ]	};
+    key <AB02>	{ [         x,          X,       zacute,       Zacute ]	};
+    key <AB03>	{ [         c,          C,       cacute,       Cacute ]	};
+    key <AB06>	{ [         n,          N,       nacute,       Nacute ]	};
+    
+    key <AB08>	{ [     comma,     nacute,         less,     multiply ]	};
+    key <AB09>	{ [    period,     sacute,      greater,     division ]	};
+    key <AB10>	{ [     minus,     cacute, dead_belowdot, dead_abovedot ] };
+    
+    key <AC10>	{ [ lstroke,    Lstroke, dead_circumflex, dead_doubleacute ]	};
+    key <AC11>	{ [apostrophe, quotedbl, dead_circumflex,  dead_caron ]	};
+
+
+    include "kpdl(comma)"
+
+    include "level3(ralt_switch)"
+};
