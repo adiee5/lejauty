@@ -1,9 +1,9 @@
 partial alphanumeric_keys
-xkb_symbols "legacy" {
+xkb_symbols "mazoviaz" {
 
     include "latin"
 
-    name[Group1]="Polish (legacy)";
+    name[Group1]="Polish (Mazovia QWERTZ)";
 
     key <AD03>	{ [         e,          E,      eogonek,      Eogonek ]	};
     key <AD07>  { [         u,          U,	EuroSign,     cent    ] };
@@ -17,12 +17,16 @@ xkb_symbols "legacy" {
     key <AB03>	{ [         c,          C,       cacute,       Cacute ]	};
     key <AB06>	{ [         n,          N,       nacute,       Nacute ]	};
     
-    key <AB08>	{ [     comma,     nacute,         less,     multiply ]	};
-    key <AB09>	{ [    period,     sacute,      greater,     division ]	};
-    key <AB10>	{ [     minus,     cacute, dead_belowdot, dead_abovedot ] };
+    key <AB08>	{ [     comma,     nacute,            less,         multiply ]	};
+    key <AB09>	{ [    period,     sacute,         greater,         division ]	};
+    key <AB10>	{ [     minus,     cacute,   dead_belowdot,    dead_abovedot ]	};
     
-    key <AC10>	{ [ lstroke,    Lstroke, dead_circumflex, dead_doubleacute ]	};
-    key <AC11>	{ [apostrophe, quotedbl, dead_circumflex,  dead_caron ]	};
+    key <AC10>	{ [   lstroke,    Lstroke, dead_circumflex, dead_doubleacute ]	};
+    key <AC11>	{ [   aogonek,    eogonek,           grave,       dead_caron ]	};
+    
+    key <AD11>	{ [    oacute,     zacute,     bracketleft,   dead_abovering ]	};
+
+    key <AE11>	{ [ zabovedot,  Zabovedot,  dead_diaeresis,     questiondown ]	};
 
 
     include "kpdl(comma)"
