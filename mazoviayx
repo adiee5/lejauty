@@ -1,0 +1,8 @@
+partial alphanumeric_keys
+xkb_symbols "mazoviayx" {
+
+    name[Group1]="Polish (Mazovia QWERTY Extended)";
+    include "pl(mazoviazx)"
+ key <AB01> { [ z, Z, seconds, NoSymbol, U0292, U01B7 ] };
+ key <AD06> { [ y, Y, dead_macron, NoSymbol, yen, U23D1 ] };
+};
