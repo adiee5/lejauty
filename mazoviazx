@@ -1,0 +1,67 @@
+partial alphanumeric_keys
+xkb_symbols "mazoviazx" {
+
+    name[Group1]="Polish (Mazovia QWERTZ Extended)";
+
+key.type[Group1] = "EIGHT_LEVEL";
+
+ key <TLDE> { [ dead_ogonek, degree, mu, NoSymbol, multiply, U266A ] };
+ key <AE01> { [ 1, exclam, NoSymbol, NoSymbol, exclamdown, U25CA ] };
+ key <AE02> { [ 2, quotedbl, at, NoSymbol, currency, brokenbar ] };
+ key <AE03> { [ 3, colon, numbersign, NoSymbol, periodcentered, U2034 ] };
+ key <AE04> { [ 4, question, dollar, NoSymbol, questiondown, U203D ] };
+ key <AE05> { [ 5, percent, asciitilde, NoSymbol, U2030, U2031 ] };
+ key <AE06> { [ 6, plus, asciicircum, NoSymbol, plusminus, U2116 ] };
+ key <AE07> { [ 7, underscore, ampersand, NoSymbol, U2212, U204A ] };
+ key <AE08> { [ 8, parenleft, braceleft, NoSymbol, leftanglebracket, U27EA ] };
+ key <AE09> { [ 9, parenright, braceright, NoSymbol, rightanglebracket, U27EB ] };
+ key <AE10> { [ 0, equal, apostrophe, NoSymbol, notequal, emptyset ] };
+ key <AE11> { [ zabovedot, Zabovedot, dead_diaeresis, NoSymbol, U2248, notsign ] };
+ key <AE12> { [ dead_acute, section, dead_grave, NoSymbol, division, paragraph ] };
+
+ key <AD01> { [ q, Q, dead_circumflex, Multi_key, masculine, malesymbol, U2642 ] };
+ key <AD02> { [ w, W, dead_caron, Multi_key, ordfeminine, femalesymbol, U2640 ] }; 
+ key <AD03> { [ e, E, EuroSign, NoSymbol, schwa, SCHWA ] };
+ key <AD04> { [ r, R, dead_doubleacute, Multi_key, registered, trademark ] };
+ key <AD05> { [ t, T, dead_tilde, Multi_key, thorn, THORN ] };
+ key <AD06> { [ z, Z, dead_macron, NoSymbol, U0292, U01B7 ] };
+ key <AD07> { [ u, U, dead_breve, Multi_key, rightarrow, leftarrow ] };
+ key <AD08> { [ i, I, dead_abovedot, NoSymbol, U2211, U26A5 ] };
+ key <AD09> { [ o, O, dead_abovering, NoSymbol, oe, OE ] };
+ key <AD10> { [ p, P, dead_hook, NoSymbol, downarrow, uparrow ] };
+ key <AD11> { [ oacute, zacute, bracketleft, NoSymbol, U2198, U2197 ] };
+ key <AD12> { [ slash, semicolon, bracketright, NoSymbol, U2044, U2052 ] };
+
+ key <AC01> { [ a, A, rightsinglequotemark, NoSymbol, ae, AE ] };
+ key <AC02> { [ s, S, Multi_key, Multi_key, ssharp, U1E9E ] };
+ key <AC03> { [ d, D, dead_stroke, Multi_key, eth, ETH ] };
+ key <AC04> { [ f, F, ISO_Level5_Latch, NoSymbol, NoSymbol, NoSymbol ] };
+ key <AC05> { [ g, G, dead_horn, Multi_key, U2A7D, U02BF ] };
+ key <AC06> { [ h, H, dead_belowmacron, NoSymbol, U2A7E, U02BE ] };
+ key <AC07> { [ j, J, dead_cedilla, NoSymbol, hyphen, U02B9 ] };
+ key <AC08> { [ k, K, dead_comma, NoSymbol, U2011, U02BA ] };
+ key <AC09> { [ l, L, sterling, NoSymbol, U200C, U261B ] };
+ key <AC10> { [ lstroke, Lstroke, dead_belowdot, NoSymbol, U2300, rightpointer ] };
+ key <AC11> { [ aogonek, eogonek, grave, NoSymbol, U02BB, U261A ] };
+ key <BKSL> { [ backslash, bar, asterisk, NoSymbol, dagger, doubledagger, U2217 ] };
+
+ key <LSGT> { [ less, greater, leftsinglequotemark, NoSymbol, U201B, U201F ] };
+ key <AB01> { [ y, Y, seconds, NoSymbol, yen, U23D1 ] };
+ key <AB02> { [ x, X, minutes, NoSymbol, enfilledcircbullet, U25E6 ] };
+ key <AB03> { [ c, C, emdash, Multi_key, cent, copyright ] };
+ key <AB04> { [ v, V, guillemotright, NoSymbol, U203A, U263A ] };
+ key <AB05> { [ b, B, guillemotleft, Multi_key, U2039, U2661 ] };
+ key <AB06> { [ n, N, doublelowquotemark, NoSymbol, eng, ENG ] };
+ key <AB07> { [ m, M, rightdoublequotemark, NoSymbol, leftdoublequotemark, U2217 ] };
+ key <AB08> { [ comma, nacute, less, NoSymbol, leftsinglequotemark, singlelowquotemark ] };
+ key <AB09> { [ period, sacute, greater, NoSymbol, ellipsis, checkmark ] };
+ key <AB10> { [ minus, cacute, endash, U1F12F, U2015, figdash ] };
+
+ key <SPCE> { [ space, U202F, nobreakspace, NoSymbol, U2423, U200A ] };
+
+ 
+
+    include "kpdl(comma)"
+    include "level5(modifier_mapping)"
+    include "level3(ralt_switch)"
+};
